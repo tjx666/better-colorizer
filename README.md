@@ -2,42 +2,42 @@
 
 <div align="center">
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/YuTengjing.awesome-vscode-extension-boilerplate)](https://marketplace.visualstudio.com/items/YuTengjing.awesome-vscode-extension-boilerplate/changelog) [![Installs](https://img.shields.io/visual-studio-marketplace/i/YuTengjing.awesome-vscode-extension-boilerplate)](https://marketplace.visualstudio.com/items?itemName=YuTengjing.awesome-vscode-extension-boilerplate) [![Downloads](https://img.shields.io/visual-studio-marketplace/d/YuTengjing.awesome-vscode-extension-boilerplate)](https://marketplace.visualstudio.com/items?itemName=YuTengjing.awesome-vscode-extension-boilerplate) [![Rating Star](https://img.shields.io/visual-studio-marketplace/stars/YuTengjing.awesome-vscode-extension-boilerplate)](https://marketplace.visualstudio.com/items?itemName=YuTengjing.awesome-vscode-extension-boilerplate&ssr=false#review-details) [![Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/YuTengjing.awesome-vscode-extension-boilerplate)](https://github.com/tjx666/awesome-vscode-extension-boilerplate)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/YuTengjing.better-colorizer)](https://marketplace.visualstudio.com/items/YuTengjing.better-colorizer/changelog) [![Installs](https://img.shields.io/visual-studio-marketplace/i/YuTengjing.better-colorizer)](https://marketplace.visualstudio.com/items?itemName=YuTengjing.better-colorizer) [![Downloads](https://img.shields.io/visual-studio-marketplace/d/YuTengjing.better-colorizer)](https://marketplace.visualstudio.com/items?itemName=YuTengjing.better-colorizer) [![Rating Star](https://img.shields.io/visual-studio-marketplace/stars/YuTengjing.better-colorizer)](https://marketplace.visualstudio.com/items?itemName=YuTengjing.better-colorizer&ssr=false#review-details) [![Last Updated](https://img.shields.io/visual-studio-marketplace/last-updated/YuTengjing.better-colorizer)](https://github.com/tjx666/better-colorizer)
 
-![test](https://github.com/tjx666/awesome-vscode-extension-boilerplate/actions/workflows/test.yml/badge.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![Github Open Issues](https://img.shields.io/github/issues/tjx666/awesome-vscode-extension-boilerplate)](https://github.com/tjx666/awesome-vscode-extension-boilerplate/issues) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+![test](https://github.com/tjx666/better-colorizer/actions/workflows/test.yml/badge.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![Github Open Issues](https://img.shields.io/github/issues/tjx666/better-colorizer)](https://github.com/tjx666/better-colorizer/issues) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 </div>
 
 ## Features
 
-- github actions support publish extension to both vs marketplace and open vsx
-- pnpm/eslint/prettier/ling-staged/simple-git-hooks/stale-dep
-- use esbuild to bundle extension
+### git error file syntax highlight
 
-## Development
+before:
 
-Install dependencies by:
+![git error file before](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/git-error-before.png?raw=true)
 
-```shell
-pnpm install
-```
+after:
 
-Then run and debug extension like in [official documentation](https://code.visualstudio.com/api/get-started/your-first-extension)
+![git error file after](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/git-error-after.png?raw=true)
 
-## Publish
+VSCode will builtin support this after my pull request is merged: [feat: treat git-error file as log](https://github.com/microsoft/vscode/pull/177885)
 
-You need set two github actions secrets:
+### output panel syntax highlight
 
-- VS_MARKETPLACE_TOKEN: [Visual Studio Marketplace token](https://learn.microsoft.com/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate)
-- OPEN_VSX_TOKEN: [Open VSX Registry token](https://github.com/eclipse/openvsx/wiki/Publishing-Extensions#3-create-an-access-token)
+before:
 
-```shell
-pnpm release
-```
+![output panel before](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/output-panel-before.png?raw=true)
+
+after:
+
+![output panel after](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/output-panel-after.png?raw=true)
+
+motivation: [createOutputChannel languageId param should use log instead of Log](https://github.com/microsoft/vscode/issues/176902)
 
 ## My extensions
 
 - [Open in External App](https://github.com/tjx666/open-in-external-app)
+- [Package Manager Enhancer](https://github.com/tjx666/package-manager-enhancer)
 - [Neo File Utils](https://github.com/tjx666/vscode-neo-file-utils)
 - [VSCode FE Helper](https://github.com/tjx666/vscode-fe-helper)
 - [VSCode archive](https://github.com/tjx666/vscode-archive)

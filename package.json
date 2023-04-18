@@ -1,8 +1,8 @@
 {
-    "name": "awesome-vscode-extension-boilerplate",
-    "displayName": "Awesome VSCode Extension Boilerplate",
+    "name": "better-colorizer",
+    "displayName": "Better Colorizer",
     "version": "0.0.11",
-    "description": "An awesome vscode extension boilerplate",
+    "description": "An Better Colorizer",
     "publisher": "YuTengjing",
     "private": true,
     "preview": true,
@@ -12,18 +12,23 @@
         "email": "ytj2713151713@gmail.com"
     },
     "license": "SEE LICENSE IN LICENSE",
-    "homepage": "https://github.com/tjx666/awesome-vscode-extension-boilerplate/blob/master/README.md",
+    "homepage": "https://github.com/tjx666/better-colorizer/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tjx666/awesome-vscode-extension-boilerplate"
+        "url": "https://github.com/tjx666/better-colorizer"
     },
     "bugs": {
-        "url": "https://github.com/tjx666/awesome-vscode-extension-boilerplate/issues",
+        "url": "https://github.com/tjx666/better-colorizer/issues",
         "email": "ytj2713151713@gmail.com"
     },
     "keywords": [
-        "boilerplate",
-        "template"
+        "color",
+        "colorize",
+        "syntax",
+        "highlight",
+        "git",
+        "error",
+        "output"
     ],
     "categories": [
         "Other"
@@ -37,10 +42,12 @@
         {
             "url": "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
             "description": "PRs Welcome",
-            "href": "https://github.com/tjx666/awesome-vscode-extension-boilerplate"
+            "href": "https://github.com/tjx666/better-colorizer"
         }
     ],
-    "activationEvents": [],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "eslintConfig": {
         "extends": "@yutengjing/eslint-config-typescript",
         "ignorePatterns": [
