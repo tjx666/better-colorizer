@@ -41,14 +41,6 @@
         }
     ],
     "activationEvents": [],
-    "contributes": {
-        "commands": [
-            {
-                "command": "awesome-vscode-extension-boilerplate.helloWorld",
-                "title": "Hello World"
-            }
-        ]
-    },
     "eslintConfig": {
         "extends": "@yutengjing/eslint-config-typescript",
         "ignorePatterns": [
