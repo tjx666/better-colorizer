@@ -14,11 +14,11 @@
 
 before:
 
-![git error file before](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/git-error-before.png?raw=true)
+![git error file before](https://github.com/tjx666/better-colorizer/blob/main/assets/screenshots/git-error-after.png?raw=true)
 
 after:
 
-![git error file after](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/git-error-after.png?raw=true)
+![git error file after](https://github.com/tjx666/better-colorizer/blob/main/assets/screenshots/git-error-after.png?raw=true)
 
 VSCode will builtin support this after my pull request is merged: [feat: treat git-error file as log](https://github.com/microsoft/vscode/pull/177885)
 
@@ -26,11 +26,11 @@ VSCode will builtin support this after my pull request is merged: [feat: treat g
 
 before:
 
-![output panel before](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/output-panel-before.png?raw=true)
+![output panel before](https://github.com/tjx666/better-colorizer/blob/main/assets/screenshots/output-panel-before.png?raw=true)
 
 after:
 
-![output panel after](https://github.com/tjx666/package-manager-enhancer/blob/main/assets/screenshots/output-panel-after.png?raw=true)
+![output panel after](https://github.com/tjx666/better-colorizer/blob/main/assets/screenshots/output-panel-after.png?raw=true)
 
 motivation: [createOutputChannel languageId param should use log instead of Log](https://github.com/microsoft/vscode/issues/176902)
 
