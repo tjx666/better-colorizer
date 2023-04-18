@@ -1,4 +1,4 @@
-# vscode extension boilerplate
+# Better Colorizer
 
 <div align="center">
 

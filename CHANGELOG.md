@@ -1,5 +1,11 @@
 <!-- https://keepachangelog.com/en/1.0.0/ -->
 
+## 0.1.3- 2023-04-19
+
+### Fixed
+
+- extension title in README
+
 ## 0.1.2- 2023-04-18
 
 ### Changed
