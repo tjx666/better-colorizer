@@ -1,13 +1,8 @@
 <!-- https://keepachangelog.com/en/1.0.0/ -->
 
-## 0.0.1 - 2022-11-17
+## 0.0.1 - 2023-04-18
 
 ### Added
 
-- feature1
-- feature2
-
-### Fixed
-
-- issue1
-- issue2
+- git error file syntax highlight
+- output panel syntax highlight
