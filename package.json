@@ -1,7 +1,7 @@
 {
     "name": "better-colorizer",
     "displayName": "Better Colorizer",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "support syntax highlight for git error file and output panel",
     "publisher": "YuTengjing",
     "private": true,
