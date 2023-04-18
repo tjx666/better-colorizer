@@ -2,7 +2,7 @@
     "name": "better-colorizer",
     "displayName": "Better Colorizer",
     "version": "0.1.1",
-    "description": "An Better Colorizer",
+    "description": "support syntax highlight for git error file and output panel",
     "publisher": "YuTengjing",
     "private": true,
     "preview": true,
@@ -12,7 +12,7 @@
         "email": "ytj2713151713@gmail.com"
     },
     "license": "SEE LICENSE IN LICENSE",
-    "homepage": "https://github.com/tjx666/better-colorizer/blob/master/README.md",
+    "homepage": "https://github.com/tjx666/better-colorizer/blob/main/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/tjx666/better-colorizer"

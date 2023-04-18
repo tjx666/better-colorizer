@@ -1,5 +1,16 @@
 <!-- https://keepachangelog.com/en/1.0.0/ -->
 
+## 0.1.2- 2023-04-18
+
+### Changed
+
+- update extension description
+
+### Fixed
+
+- broken screenshots links
+- extension homepage
+
 ## 0.1.1- 2023-04-18
 
 ### Fixed

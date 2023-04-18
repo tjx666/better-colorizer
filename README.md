@@ -14,7 +14,7 @@
 
 before:
 
-![git error file before](https://github.com/tjx666/better-colorizer/blob/main/assets/screenshots/git-error-after.png?raw=true)
+![git error file before](https://github.com/tjx666/better-colorizer/blob/main/assets/screenshots/git-error-before.png?raw=true)
 
 after:
 
